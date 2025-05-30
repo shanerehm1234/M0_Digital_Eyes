@@ -9,3 +9,4 @@ Later I came across the UncannyEyes project (https://github.com/adafruit/Uncanny
 This repository is mostly for my own reference when doing any maintenance on these or expirimenting with other displays. 
 
 Adafruit ItsyBitsy M0 - https://www.adafruit.com/product/3727
+![adafruit_ItsyBitsy_M0](https://github.com/user-attachments/assets/c73cabf8-3e75-424f-a60c-52ac239142f0)
