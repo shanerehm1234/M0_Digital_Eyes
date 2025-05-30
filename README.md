@@ -10,3 +10,15 @@ This repository is mostly for my own reference when doing any maintenance on the
 
 Adafruit ItsyBitsy M0 - https://www.adafruit.com/product/3727
 ![adafruit_ItsyBitsy_M0](https://github.com/user-attachments/assets/c73cabf8-3e75-424f-a60c-52ac239142f0)
+
+
+
+Lenses
+Optical glass lenses
+![image](https://github.com/user-attachments/assets/09595f77-a3d1-419a-85fd-2bfa66164d87)
+OD = 40mm
+ID = 36
+H = 16
+E = 2.5
+https://www.aliexpress.us/item/3256804130163482.html
+
