@@ -20,5 +20,36 @@ OD = 40mm
 ID = 36
 H = 16
 E = 2.5
+
 https://www.aliexpress.us/item/3256804130163482.html
 
+Wiring
+ItsyBitsy  ---->   LCD
+G  ---->   GND
+USB  ---->   VCC
+10  ---->   CS (Eye 2)
+9  ---->   CS (Eye 1)
+7  ---->   AO
+RST  ---->   RESET
+SCK  ---->   SCK
+MOSI  ---->   SDA
+
+On the LCD
+VCC ---68Ω resistor---> LED
+![image](https://github.com/user-attachments/assets/f27f43d1-415f-4987-a127-c3050e23ebf7)
+
+Code
+Arduino IDE - add additional boards to preferences: https://learn.adafruit.com/introducing-itsy-bitsy-m0/setup
+Code homepage: https://learn.adafruit.com/animated-electronic-eyes/software
+
+
+//include "graphics/defaultEye.h"      // Standard human-ish hazel eye -OR-
+#include "graphics/dragonEye.h"     // Slit pupil fiery dragon/demon eye -OR-
+//#include "graphics/noScleraEye.h"   // Large iris, no sclera -OR-
+//#include "graphics/goatEye.h"       // Horizontal pupil goat/Krampus eye -OR-
+//#include "graphics/newtEye.h"       // Eye of newt -OR-
+//#include "graphics/terminatorEye.h" // Git to da choppah!
+//#include "graphics/catEye.h"        // Cartoonish cat (flat "2D" colors)
+//#include "graphics/owlEye.h"        // Minerva the owl (DISABLE TRACKING)
+//#include "graphics/naugaEye.h"      // Nauga googly eye (DISABLE TRACKING)
+//#include "graphics/doeEye.h"        // Cartoon deer eye (DISABLE TRACKING)
