@@ -27,8 +27,8 @@ Wiring
 ItsyBitsy  ---->   LCD
 G  ---->   GND
 USB  ---->   VCC
-10  ---->   CS (Eye 2)
-9  ---->   CS (Eye 1)
+10  ---->   CS (Right Eye)
+9  ---->   CS (Left Eye)
 7  ---->   AO
 RST  ---->   RESET
 SCK  ---->   SCK
