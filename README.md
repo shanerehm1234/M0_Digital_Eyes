@@ -35,8 +35,8 @@ SCK  ---->   SCK
 MOSI  ---->   SDA  
 
 On the LCD
-VCC ---68Ω resistor---> LED  
-![image](https://github.com/user-attachments/assets/f27f43d1-415f-4987-a127-c3050e23ebf7)
+VCC---68Ω resistor---> LED- Remove the SMD resistor on the trace and solder the resistor to the lower solder pad. 
+![image](https://github.com/user-attachments/assets/f27f43d1-415f-4987-a127-c3050e23ebf7)  
 
 ## Code
 Arduino IDE - add additional boards to preferences: https://learn.adafruit.com/introducing-itsy-bitsy-m0/setup  
