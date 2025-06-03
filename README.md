@@ -1,6 +1,7 @@
 # M0_Digital_Eyes
 Project files for digital eyes using AdaFruit ItsyBitsy M0 Express
 
+## Code by AdaFruit
 Not my original code- copied from AdaFruit.
 
 I made the AdaFruit Eyes project with a Raspberry Pi and the Eyes Bonnet, which worked great, but I found the full sized Pi too bulky to cram into a skull. 
@@ -13,44 +14,34 @@ Adafruit ItsyBitsy M0 - https://www.adafruit.com/product/3727
 
 
 
-Lenses
+## Lenses
 Optical glass lenses
-![image](https://github.com/user-attachments/assets/09595f77-a3d1-419a-85fd-2bfa66164d87)
-OD = 40mm
-ID = 36
-H = 16
-E = 2.5
+![image](https://github.com/user-attachments/assets/09595f77-a3d1-419a-85fd-2bfa66164d87)  
+OD = 40mm  
+ID = 36  
+H = 16  
+E = 2.5  
+https://www.aliexpress.us/item/3256804130163482.html  
 
-https://www.aliexpress.us/item/3256804130163482.html
-
-Wiring
-ItsyBitsy  ---->   LCD
-
-G  ---->   GND
-
-USB  ---->   VCC
-
-10  ---->   CS (Right Eye)
-
-9  ---->   CS (Left Eye)
-
-7  ---->   AO
-
-RST  ---->   RESET
-
-SCK  ---->   SCK
-
-MOSI  ---->   SDA
-
+## Wiring
+**ItsyBitsy  ---->   LCD**  
+G  ---->   GND  
+USB  ---->   VCC  
+10  ---->   CS (Right Eye)  
+9  ---->   CS (Left Eye)  
+7  ---->   AO  
+RST  ---->   RESET  
+SCK  ---->   SCK  
+MOSI  ---->   SDA  
 
 On the LCD
-VCC ---68Ω resistor---> LED
+VCC ---68Ω resistor---> LED  
 ![image](https://github.com/user-attachments/assets/f27f43d1-415f-4987-a127-c3050e23ebf7)
 
-Code
-Arduino IDE - add additional boards to preferences: https://learn.adafruit.com/introducing-itsy-bitsy-m0/setup
-Code homepage: https://learn.adafruit.com/animated-electronic-eyes/software
+## Code
+Arduino IDE - add additional boards to preferences: https://learn.adafruit.com/introducing-itsy-bitsy-m0/setup  
+Code homepage: https://learn.adafruit.com/animated-electronic-eyes/software  
 
+"Double click" reset button on board to enter bootloader mode (small red LED pulsing) to upload sketch. MAy beed to select new port on IDE.  
 
-"Double click" reset button on board to enter bootloader mode (small red LED pulsing) to upload sketch. MAy beed to select new port on IDE. 
 
