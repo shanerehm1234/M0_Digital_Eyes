@@ -43,17 +43,5 @@ Arduino IDE - add additional boards to preferences: https://learn.adafruit.com/i
 Code homepage: https://learn.adafruit.com/animated-electronic-eyes/software
 
 
-//include "graphics/defaultEye.h"      // Standard human-ish hazel eye -OR-
-#include "graphics/dragonEye.h"     // Slit pupil fiery dragon/demon eye -OR-
-//#include "graphics/noScleraEye.h"   // Large iris, no sclera -OR-
-//#include "graphics/goatEye.h"       // Horizontal pupil goat/Krampus eye -OR-
-//#include "graphics/newtEye.h"       // Eye of newt -OR-
-//#include "graphics/terminatorEye.h" // Git to da choppah!
-//#include "graphics/catEye.h"        // Cartoonish cat (flat "2D" colors)
-//#include "graphics/owlEye.h"        // Minerva the owl (DISABLE TRACKING)
-//#include "graphics/naugaEye.h"      // Nauga googly eye (DISABLE TRACKING)
-//#include "graphics/doeEye.h"        // Cartoon deer eye (DISABLE TRACKING)
-
-
 "Double click" reset button on board to enter bootloader mode (small red LED pulsing) to upload sketch. MAy beed to select new port on IDE. 
 
