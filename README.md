@@ -25,14 +25,23 @@ https://www.aliexpress.us/item/3256804130163482.html
 
 Wiring
 ItsyBitsy  ---->   LCD
+
 G  ---->   GND
+
 USB  ---->   VCC
+
 10  ---->   CS (Right Eye)
+
 9  ---->   CS (Left Eye)
+
 7  ---->   AO
+
 RST  ---->   RESET
+
 SCK  ---->   SCK
+
 MOSI  ---->   SDA
+
 
 On the LCD
 VCC ---68Ω resistor---> LED
