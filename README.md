@@ -36,6 +36,8 @@ MOSI  ---->   SDA
 
 On the LCD
 VCC---68Ω resistor---> LED- Remove the SMD resistor on the trace and solder the resistor to the lower solder pad. 
+There IS a 3.3V pin on the board that may work on the LED pin, which would require another wire. I haven't tried it yet.  
+
 ![image](https://github.com/user-attachments/assets/f27f43d1-415f-4987-a127-c3050e23ebf7)  
 
 ## Code
